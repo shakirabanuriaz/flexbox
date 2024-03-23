@@ -1,0 +1,76 @@
+ /* img{
+    display: block;
+    margin:0 auto;
+        
+    
+}
+
+img:hover{
+    cursor: pointer;
+    transform:scale(0.5);
+    transition:all 2s ease-in 5s;
+} 
+h1:hover{
+    cursor: pointer;
+}
+h1{
+    animation-name: textcolorchange;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes textcolorchange{
+    from{
+        color: brown;
+    }
+
+    to{
+       color: blue;
+    } 
+ */
+.container{
+   border: 2px solid red;
+   text-align: center;
+  
+}
+
+
+ .content{
+     background-color: cadetblue;
+     display: inline-block;
+     height: 67px;
+     overflow: hidden;
+     
+
+ }
+
+ .content a{
+    text-decoration: none;
+    color:#000000;
+ }
+
+ .image img:hover{
+
+    cursor: pointer;
+    transition: all 2s linear 4s ;
+    
+ }
+
+
+ .image img:hover{
+    animation-name: imagechange;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    
+ }
+
+   
+
+ 
+
+
+ 

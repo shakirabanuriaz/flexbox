@@ -1,0 +1,1013 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    src: url("../fonts/Heebo-Regular.ttf") format("truetype");
+    font-family: "Heebo-Regular"
+}
+
+@font-face {
+    src: url("../fonts/Heebo-Light.ttf") format("truetype");
+    font-family: "Heebo-Light"
+}
+
+
+@font-face {
+    src: url("../fonts/Heebo-Bold.ttf") format("truetype");
+    font-family: "Heebo-Bold"
+}
+
+
+@font-face {
+    src: url("../fonts/Heebo-Black.ttf") format("truetype");
+    font-family: "Heebo-Black"
+}
+
+@font-face {
+    src: url("../fonts/Heebo-Medium.ttf") format("truetype");
+    font-family: "Heebo-Medium"
+}
+
+@font-face {
+    src: url("../fonts/Heebo-Thin.ttf") format("truetype");
+    font-family: "Heebo-Thin"
+}
+
+@font-face {
+    src: url("../fonts/Heebo-Black.ttf") format("truetype");
+    font-family: "Heebo-Black"
+}
+
+.container {
+    width: 858px;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* border: 2px solid red; */
+}
+
+.homemenu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    width: 95%;
+}
+
+.homemenu ul li:last-child {
+    margin-right: 0;
+}
+
+
+
+.homemenu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Heebo-Medium";
+    color: #000000;
+    margin-right: 30px;
+}
+.homemenu ul li  a.bloglink {
+    color: #FF6464;
+}
+
+.homemenu ul li a.workslink  {
+    color: #FF6464;
+    
+}
+
+
+/* main content css strts */
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+
+.heading {
+    flex-basis: 70%;
+    padding-top: 70px;
+    padding-left: 20px;
+}
+
+.heading h1 {
+    font-family: "Heebo-Regular";
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.heading p {
+    font-family: "Heebo-Regular";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+
+.heading p span,
+.heading h1 span {
+    display: inline-block;
+}
+
+
+.heading a {
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #FF6464;
+    padding: 12px 10px;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+}
+
+.headingimage {
+
+
+    flex-basis: 29%;
+    padding-top: 60px;
+}
+
+/* second section starts */
+
+
+.mainpost {
+    background: #EDF7FA;
+
+
+}
+
+.toppost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.toppost h4 {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-left: 10px;
+
+}
+
+.toppost a {
+    color: #00A8CC;
+    text-align: right;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.whitesection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.leftboxpost {
+    flex-basis: 49%;
+}
+
+.rightboxpost {
+
+    flex-basis: 49%;
+
+}
+
+.leftboxpost {
+    padding: 25px;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+.leftboxpost h2 {
+    color: #21243D;
+    font-family: "Heebo-Medium";
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.leftboxpost h3 {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+
+}
+
+.leftboxpost h4 {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+}
+
+.leftboxpost h4::before {
+    content: " ";
+    width: 2px;
+    height: 20px;
+    background-color: #21243D;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p.leftcontent {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.leftcontent p span {
+    display: inline-block;
+}
+
+/* left box css ends */
+
+/* rightbox css strts */
+
+
+
+.rightboxpost {
+    padding: 25px;
+    border-radius: 4px;
+    background-color: white;
+
+}
+
+
+.rightboxpost h2 {
+    color: #21243D;
+    font-family: "Heebo-Medium";
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+
+}
+
+.rightboxpost h3 {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+
+}
+
+.rightboxpost h4 {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+}
+
+.rightboxpost h4::before {
+    content: " ";
+    width: 2px;
+    height: 20px;
+    background-color: #21243D;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+p.rightcontent {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.rightcontent p span {
+    display: inline-block;
+}
+
+
+/* design dashboard css strats */
+
+.designdashboard {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E0E0E0;
+
+
+}
+
+.dbdesign {
+
+    margin-bottom: 20px;
+    width: 858px;
+}
+
+.dbdesign h3 {
+    margin-top: 20px;
+    font-family: "Heebo-Regular";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.designleft img {
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.designleft {
+    flex-basis: 30%;
+}
+
+.designright {
+    flex-basis: 67%;
+}
+
+.designright h2 {
+    font-family: "Heebo-Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.designright h3 {
+
+    font-family: "Heebo-Black";
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 16px;
+    background: #142850;
+    color: #ffffff;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.designright h4 {
+    display: inline-block;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: #8695A4;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.designright p {
+    font-family: "Heebo-regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.designright p span {
+    display: inline-block;
+}
+
+/* design dashboard css ends */
+
+/* vibrant  css strats */
+
+
+.vbdesign {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 30px;
+    width: 858px;
+
+}
+
+.vibrantleft img {
+
+    flex-basis: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.vibrantright {
+    flex-basis: 67%;
+}
+
+.vibrantright h2 {
+    font-family: "Heebo-Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.vibrantright h3 {
+    font-family: "Heebo-Black";
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 16px;
+    background: #142850;
+    color: #ffffff;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.vibrantright h4 {
+    display: inline-block;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.5;
+    color: #8695A4;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.vibrantright p {
+    font-family: "Heebo-regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.vibrantright p span {
+    display: inline-block;
+
+}
+
+/* vibrant  css ends */
+
+/* 36 Days of Malayalam type  section starts*/
+
+.mtdesign {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 40px;
+    width: 858px;
+
+}
+
+.mtdesignleft img {
+
+    flex-basis: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.mtdesignright {
+    flex-basis: 67%;
+}
+
+.mtdesignright h2 {
+    font-family: "Heebo-Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.mtdesignright h3 {
+    font-family: "Heebo-Black";
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 16px;
+    background: #142850;
+    color: #ffffff;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.mtdesignright h4 {
+    display: inline-block;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695A4;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.mtdesignright p {
+    font-family: "Heebo-regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.mtdesignright p span {
+    display: inline-block;
+
+}
+
+/* footer html section starts */
+
+
+
+.footericons ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 35px;
+}
+
+.footericons ul li {
+    margin-right: 40px;
+}
+
+.footericons ul li:last-child {
+    margin-right: 0;
+}
+
+.footericons ul li a {
+    display: inline-block;
+    font-size: 35px;
+    color: #21243D;
+
+}
+
+.footericons h4 {
+    color: #21243D;
+    text-align: center;
+    font-family: "Heebo-Regular";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.blogcontainer {
+    width: 681px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+
+.blogcontainer h1 {
+    color: #21243D;
+    font-family: "Heebo-Bold";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.UIblog {
+    border-bottom: 1px solid #E0E0E0;
+
+}
+
+.UIblog h2 {
+    color: #21243D;
+    font-family: "Heebo-Medium";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.UIblog h3 {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline;
+
+}
+
+.UIblog h4 {
+    color: #8695A4;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    margin-bottom: 10px;
+
+
+}
+
+.UIblog h4::before {
+    content: " ";
+    width: 2px;
+    height: 20px;
+    background-color: #21243D;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.UIblog p {
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.UIblog p span {
+    display: inline;
+}
+
+/* work page css starts */
+.workcontainer {
+
+    width: 858px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.workcontainer h1 {
+    color: #21243D;
+    font-family: "Heebo-Bold";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.cmpdesign {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #E0E0E0;
+    margin-bottom: 40px;
+    width: 858px;
+
+}
+
+.cmpdesignleft img {
+
+
+    flex-basis: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.cmpdesignright {
+    flex-basis: 67%;
+}
+
+.cmpdesignright h2 {
+    font-family: "Heebo-Bold";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cmpdesignright h3 {
+    font-family: "Heebo-Black";
+    font-size: 18px;
+    font-weight: 900;
+    display: inline-block;
+    border-radius: 16px;
+    background: #142850;
+    color: #ffffff;
+    width: 62px;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cmpdesignright h4 {
+    display: inline-block;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    color: #8695A4;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.cmpdesignright p {
+    font-family: "Heebo-regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.cmpdesignright p span {
+    display: inline-block;
+
+}
+
+/* work page css ends */
+
+/* workdetail css starts */
+
+.firstpara h2 {
+    color: #21243D;
+    font-family: "Heebo-Bold";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.firstpara h2 span {
+    display: block;
+}
+
+.firstpara h3 {
+    color: #ffffff;
+    font-family: "Heebo-Black";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    border-radius: 16px;
+    display: inline-block;
+    background: #FF6464;
+    text-align: center;
+    width: 62px;
+    height: 25px;
+}
+
+.firstpara h4 {
+
+    color: #21243D;
+    font-family: "Heebo-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.firstpara p {
+    color: #000;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.firstpara p span {
+    display: inline-block;
+}
+
+.firstpara img {
+    width: 100%;
+    margin-bottom: 45px;
+    display: block;
+}
+
+
+.secondpara h2 {
+    color: #21243D;
+    font-family: "Heebo-Medium";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+.secondpara h3 {
+
+    color: #21243D;
+    font-family: "Heebo-Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+
+}
+
+.secondpara p {
+    color: #000;
+    font-family: "Heebo-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+
+.secondpara p span {
+    display: inline-block;
+}
+
+.secondpara img {
+    width: 100%;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+.workdetailcontainer {
+    width: 681px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+@media (max-width:576px) {
+
+
+
+    .container {
+        width: 100%;
+    }
+
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .home .heading {
+        flex-basis: 100%;
+    }
+
+
+    .headingimage {
+        flex-basis: 100%;
+
+    }
+
+    .homemenu {
+        display: none;
+    }
+
+    .designdashboard {
+        width: 100%;
+    }
+
+    .toppost a {
+        display: none;
+    }
+
+    .toppost {
+        justify-content: center;
+
+    }
+
+
+    .leftboxpost {
+        flex-basis: 100%;
+    }
+
+    .rightboxpost {
+        flex-basis: 100%;
+    }
+
+
+    .dbdesign {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .dbdesign h3 {
+        text-align: center;
+    }
+
+    .designleft {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .designright {
+        flex-basis: 100%;
+    }
+
+    .designleft img {
+        width: 100%;
+
+    }
+
+    .designright p span {
+        display: inline;
+
+    }
+
+    .vbdesign {
+        display: none;
+    }
+
+    .mtdesign {
+        display: none;
+    }
+
+    .blogcontainer {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .workcontainer {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .cmpdesign {
+        width: 100%;
+    }
+
+    .cmpdesignleft {
+        flex-basis: 100%;
+
+    }
+
+    .cmpdesignright {
+        flex-basis: 100%;
+    }
+
+    .cmpdesignright p span {
+        display: inline;
+
+    }
+
+    .workdetailcontainer {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .workdetailcontainer p span {
+        display: inline;
+    }
+}
